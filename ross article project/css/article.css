@@ -30,7 +30,11 @@ body{
 .cardContent{
 background-color: whitesmoke;
 padding: 10px;
-
+margin: 5px;
+transition: transform .2s; 
+}
+.cardContent:hover {
+  transform: scale(1.05);
 }
 
 .content{
