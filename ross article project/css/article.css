@@ -1,0 +1,158 @@
+body{
+  font-family: 'PublicSansRegular';
+  font-weight: bold;
+
+}
+
+#background{
+  background-image: url("../assets/img/BG.jpeg" );
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#header{
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+[class*='col-'] h3{
+  text-align: center;
+
+}
+.cardContent{
+background-color: whitesmoke;
+padding: 10px;
+
+}
+
+.content{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(32, 178, 170, 0.5 );
+}
+
+#nav{
+  background-color: whitesmoke;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+
+nav#nav li{
+  display:inline-block;
+  margin: 20px;
+  color: black;
+}
+
+img.full-width-image{
+width: 100%;
+}
+
+h1{
+  background-color: whitesmoke;
+  padding: 25px;
+  font: bold;
+}
+#titleAid{
+  background-color: whitesmoke;
+  padding: 10px;
+  font-weight:bold;
+  text-align: center;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+p{
+  font-weight: initial;
+}
+date{
+  font-weight:200px;
+}
+
+/* phone size responsive */
+@media only screen and (max-width: 500px ){
+  body{
+    font-family: 'PublicSansRegular';
+    font-weight: bold;
+  }
+  
+  #background{
+    background-image: url("../assets/img/BG.jpeg" );
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  #header{
+    background-color: whitesmoke;
+    text-align: center;
+  }
+  
+  [class*='col-'] h3{
+    text-align: center;
+  
+  }
+  [class*='col-']{
+   border: 1px solid grey; 
+} 
+  .cardContent{
+  background-color: whitesmoke;
+  padding: 10px;
+  }
+  
+  div.content{
+    background-color: whitesmoke;
+  }
+  
+  nav#nav{
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  nav#nav li{
+    display:inline-block;
+    margin-right: 20px;
+  
+  }
+  
+  img.full-width-image{
+  width: 100%;
+  }
+  
+  h1{
+    background-color: whitesmoke;
+    padding: 25px;
+    font: bold;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  p{
+    font-weight: initial;
+  }
+  date{
+    font-weight: initial;
+  }
+  
+}
